@@ -6,8 +6,10 @@
 class BITL {
     public:
         setup();  // Constructor
-        void sendPos();   // Initialization function
-        void sendID();  // Sample method
+        void sendPos();  
+        void sendID();  
+        void goSend();
+        void goReceive(;)
     private:
     };
 
