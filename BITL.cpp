@@ -22,3 +22,10 @@ void BITL::goSend() {
 void BITL::goReceive() {
     Serial.println(_deviceName + " move 1 0 0 0");
 }
+
+void BITL::receive() { // prints and saves the received data as receivedData
+    if (Serial.available() > 0) {
+        String receivedData = Serial.readStringUntil('\n');
+        Serial.println("Received: " + receivedData); // Verify received data
+}
+}

@@ -10,6 +10,7 @@ class BITL {
         void sendID(const String &name, String id);  
         void goSend();
         void goReceive();
+        void receive();
     private:
         String _deviceName;
         long baudRate;
